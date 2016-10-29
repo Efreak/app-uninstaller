@@ -8,4 +8,4 @@ If you are not elevated, it will prompt you to elevate so you can deprovision ap
 
 To run the script without downloading, use:
 
-    powershell -nop -c "iex(New-Object Net.WebClient).DownloadString("https://git.io/vXIFD")
+    powershell -Exec Bypass -c "iex(New-Object Net.WebClient).DownloadString('https://git.io/vXIFD')"
